@@ -1,3 +1,4 @@
 highlighter: pygments
 safe: true
 lsi: false
+timezone: GB-Eire
