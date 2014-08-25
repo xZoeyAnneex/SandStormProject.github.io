@@ -4,6 +4,15 @@
     <title>Turtle.Code("BETA")</title>
   </head>
   <body>
-  
-  </body
+    <h1>Members</h1>
+    <ul>
+      {% for member in site.data.members %}
+        <li>
+          <a href="https://github.com/{{ member.github }}">
+            {{ member.name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </body>
 </html>
