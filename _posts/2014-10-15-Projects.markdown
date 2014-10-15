@@ -1,4 +1,5 @@
 ---
-layout: posts
+layout: post
+title: Projects
 ---
 Whe currently have 5 projects running.
